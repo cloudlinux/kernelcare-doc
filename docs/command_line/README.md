@@ -7,8 +7,12 @@
 
 ## kcarectl
 
+asds
+as
+s
+ss
 
-_/usr/bin/kcarectl_ - Manage KernelCare patches for your kernel.
+/usr/bin/kcarectl - Manage KernelCare patches for your kernel.
 
 | | |
 |-|-|
