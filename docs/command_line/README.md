@@ -23,7 +23,6 @@
 |`--register KEY` | Register using KernelCare Key.|
 |`--register-autoretry [since 2.5]` | If registration fails retries registration indefinitely.|
 |`--unregister` | Unregister from KernelCare for Key based servers.|
-|`--test` | Try test builds instead of production builds (deprecated, use --prefix=test instead).|
 |`--prefix` | Patch source prefix, used to test different builds, by downloading builds from a different location, based on prefix (v2.2+)|
 |`--version` | Print KernelCare version.|
 |`--import-key PATH` | Import gpg key.|
