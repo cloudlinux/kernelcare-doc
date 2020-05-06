@@ -12,6 +12,12 @@ module.exports = {
       before: info => `<div class="tip custom-block"><p class="custom-block-title">${info}</p>`,
       after: '</div>',
     }],
+    ['disqus', { shortname: 'cldocs' }],
+    ['@vuepress/google-analytics',
+      {
+        'ga': 'UA-12711721-6'
+      }
+    ]
   ],
 
   base: "/",
@@ -21,7 +27,6 @@ module.exports = {
       ["script", { src: "https://js.hs-scripts.com/5408110.js" }], // HubSpot
       ["link", { rel: "icon", href: "/favicon.ico" }],
   ],
-  ga: "UA-12711721-6", // google analitics
   fbPixelID: "645174729237247", // facebook pixel
 
   locales: {
